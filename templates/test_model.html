@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block title %}Test Model{% endblock %}
+
+{% block content %}
+    <h1>Test Model</h1>
+    <form action="{% url 'recommendation:recommend' %}" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="temperature">Temperature:</label>
+            <input type="number" step="0.01" name="temperature" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="hydrometry_rate">Hydrometry Rate:</label>
+            <input type="number" step="0.01" name="hydrometry_rate" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label for="humidity_rate">Humidity Rate:</label>
+            <input type="number" step="0.01" name="humidity_rate" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label for="rainfall_rate">Rainfall Rate:</label>
+            <input type="number" step="0.01" name="rainfall_rate" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="sunshine_rate">Sunshine Rate:</label>
+            <input type="number" step="0.01" name="sunshine_rate" class="form-control" required>
+        </div>
+
+          <div class="form-group">
+            <label for="water_level">Water Level:</label>
+            <select name="water_level" class="form-control" required>
+                <option value="1">Low</option>
+                <option value="2">Medium</option>
+                <option value="3">Medium-High</option>
+                <option value="4">High</option>
+                <option value="5">Very High</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="moisture">Moisture:</label>
+            <select name="moisture" class="form-control" required>
+                <option value="1">Very dry</option>
+                <option value="2">Dry</option>
+                <option value="3">Slightly dry</option>
+                <option value="4">Low</option>
+                <option value="5">Moderate</option>
+                <option value="6">Moist</option>
+                <option value="7">Slightly Moist</option>
+                <option value="8">Very Moist</option>
+                <option value="9">Damp</option>
+                <option value="10">Wet</option>
+                <option value="11">Sandy</option>
+                <option value="12">Loamy</option>
+                <option value="13">Moderately Moist</option>
+                <option value="14">Very moist</option>
+                <option value="15">High</option>
+                <option value="16">Medium</option>
+
+            </select>
+        </div>
+      <div class="form-group">
+    <label for="soil_type">Soil Type:</label>
+    <select id="soilTypeDropdown" name="soil_type" class="form-control" required></select>
+</div>
+
+        <input type="submit" class="btn btn-primary" value="Recommend">
+    </form>
+
+<script>
+  var soilTypes = [
+    'Loamy', 'Sandy', 'Clay', 'Silt', 'Peaty', 'Muddy', 'Loam', 'Clayey', 'Rocky',
+    'Sandy loam', 'Well-drained', 'Moist', 'Silty', 'Clay loam', 'Silt loam',
+    'Swampy', 'Well-draining', 'Sandy Loam', 'Wet', 'Marshy', 'Boggy', 'Damp',
+    'Acidic', 'Silty loam', 'Epiphytic', 'Silty Loam', 'Loamy sand', 'Silty clay',
+    'Dry', 'Epiphyte', 'Clay Loam', 'Alluvial', 'Humus', 'Peat', 'Slightly Acidic',
+    'Neutral', 'Humus-rich', 'Slightly acidic', 'Chalky', 'Volcanic loam',
+    'Laterite soil', 'Red soil', 'Alluvial soil', 'Silt Loam', 'Sandy Clay',
+    'Organic', 'Sedge', 'Sandy clay loam', 'Rich', 'Rich loamy soil',
+    'Sandy Clay Loam', 'Volcanic', 'Loamy soil'
+  ];
+
+  function createSoilTypeDropdown() {
+    var dropdown = document.getElementById('soilTypeDropdown');
+
+    for (var i = 0; i < soilTypes.length; i++) {
+      var option = document.createElement('option');
+      option.value = i;
+      option.text = soilTypes[i];
+      dropdown.appendChild(option);
+    }
+  }
+
+  window.onload = createSoilTypeDropdown;
+</script>
+
+{% endblock %}

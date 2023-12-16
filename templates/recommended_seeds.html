@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Recommended Seeds{% endblock %}
+
+{% block content %}
+    <h1>Recommended Seeds</h1>
+    <div class="recommended-seeds">
+        <h2>List of Recommended Seeds:</h2>
+        <ul>
+            {% for seed in seeds %}
+                <li>{{ seed }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <!-- Add styling or additional content as needed -->
+{% endblock %}
