@@ -27,7 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'src.recommendation.apps.RecommendationConfig',
+    'src.AI.apps.recommendation.apps.RecommendationConfig',
+    'src.AI.apps.alerts.apps.AlertsConfig',
+    'src.AI.apps.cultivation_plan.apps.CultivationPlanConfig',
 
 ]
 

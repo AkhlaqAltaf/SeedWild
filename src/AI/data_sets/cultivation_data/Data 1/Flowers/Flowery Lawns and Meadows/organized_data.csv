@@ -1,0 +1,10 @@
+Category,Subcategory,ID,Indoor Sowing,Outdoor sowing,Harvest,Explanations,Type,Colour,Fruit Size,Use,Other Attributes,Shape,Fruit Weight,Name,Bloom,Description
+en,flowerscat=1688,1,null,null,null,"Bee-friendly: This plant has a good nectar or pollen supply, which is especially good for honey and wild bees, as well as other pollinating insects. There are 500 different kinds of wild bees alone. Some crops are best approached by specialists, others by generalists.",,,,,density: 15g/m².; pollinators: Yes; ,,,FLOWERING,null,"LAWN
+ wb50
+Mixture with almost 20 species for poor to nutrient-rich areas, including ryegrass, red fescue, daisy, small meadow button and knapweed. Under heavy traffic and frequent cutting (4 to 9 times a year), some fertilization is recommended. Sowing density: 15g/m².
+Positive for pollinators: Yes"
+en,flowerscat=1688,2,null,null,null,"Bee-friendly: This plant has a good nectar or pollen supply, which is especially good for honey and wild bees, as well as other pollinating insects. There are 500 different kinds of wild bees alone. Some crops are best approached by specialists, others by generalists.",,,,,density: 5g/m².; pollinators: Yes; ,,,FLOWERING,null,"MEADOW
+ wb60
+Very species-rich, extensive meadow with grasses and almost 30 different types of wildflowers. Suitable for dry, lean to slightly fresh, humus-covered soil. We recommend a hay cut from mid-June onwards and a low autumn cut. Sowing density: 5g/m².
+Positive for pollinators: Yes"
+# ... your CSV data here ...,,3,null,null,null,null,null,null,null,null,null,null,null,null,null,null

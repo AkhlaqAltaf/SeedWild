@@ -4,6 +4,6 @@ from django.urls import path, include
 
 urlpatterns = [
 
-    path('', include('src.recommendation.urls', namespace='recommendation')),
+    path('', include('src.AI.apps.recommendation.urls', namespace='recommendation')),
     path('admin/', admin.site.urls),
 ]

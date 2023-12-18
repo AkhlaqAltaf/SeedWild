@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="595fecaf-d54f-4fe9-948e-820b086117b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/alerts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/alerts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/alerts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/alerts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/cultivation_plan/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/cultivation_plan/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/cultivation_plan/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/cultivation_plan/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/cultivation_plan/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/cultivation_plan/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/recommendations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_process/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_process/clean_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_process/post_process/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_process/pre_process_data/process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Annual Flowers/annual-flowersp=2_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Annual Flowers/annual-flowersp=3_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Annual Flowers/flowerscat=1683_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Annual Flowers/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Biennial Flowers/flowerscat=1684_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Biennial Flowers/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Flowers (Mixed)/flowerscat=1686_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Flowers (Mixed)/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Flowery Lawns and Meadows/flowerscat=1688_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Flowery Lawns and Meadows/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Perennial Flowers/flowerscat=1685_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Perennial Flowers/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Wild Flowers (Mixed)/flowerscat=1687_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Flowers/Wild Flowers (Mixed)/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Artichokes/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Artichokes/vegetablescat=1481_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Asian Brassicas/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Asian Brassicas/vegetablescat=1650_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Aubergines (Eggplants)/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Aubergines (Eggplants)/vegetablescat=1651_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Beans/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Beans/vegetablescat=1652_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Beetroot/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Beetroot/vegetablescat=1667_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Broad Beans/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Broad Beans/vegetablescat=1653_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Broccoli/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Broccoli/vegetablescat=1707_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Brussels Sprouts/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Brussels Sprouts/vegetablescat=1716_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cape Gooseberry/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cape Gooseberry/vegetablescat=1673_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cardoons/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cardoons/vegetablescat=1654_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Carrots/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Carrots/vegetablescat=1659_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cauliflower/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cauliflower/vegetablescat=1706_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Celeriac/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Celeriac/vegetablescat=1672_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Chard/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Chard/vegetablescat=1946_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Chinese Cabbage/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Chinese Cabbage/vegetablescat=1708_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Courgette-Zucchini/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Courgette-Zucchini/vegetablescat=1678_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cress/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cress/vegetablescat=1681_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cucumbers/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Cucumbers/vegetablescat=1658_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Edamame Soy Bean/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Edamame Soy Bean/vegetablescat=1682_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Endives/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Endives/vegetablescat=1677_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Fennel/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Fennel/vegetablescat=1657_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Field Salad/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Field Salad/vegetablescat=1664_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Kale/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Kale/vegetablescat=1709_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Kohlrabi/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Kohlrabi/vegetablescat=1710_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Leaf Beet/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Leaf Beet/vegetablescat=1718_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Leek/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Leek/vegetablescat=1661_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Lettuces (Lactuca)/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Lettuces (Lactuca)/vegetablescat=1656_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Maize/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Maize/vegetablescat=1947_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Melons/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Melons/vegetablescat=1663_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Onion Seeds/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Onion Seeds/vegetablescat=1680_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Parsnip/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Parsnip/vegetablescat=1665_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Peas/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Peas/vegetablescat=1655_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Peppers-Chillies/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Peppers-Chillies/vegetablescat=1666_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Pumpkins-Squashes/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Pumpkins-Squashes/vegetablescat=1660_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Purple Salsify/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Purple Salsify/vegetablescat=1671_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Radish (Small)/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Radish (Small)/vegetablescat=1668_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Radish/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Radish/vegetablescat=1669_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Red Cabbage/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Red Cabbage/vegetablescat=1713_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Rutabaga-Swede/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Rutabaga-Swede/vegetablescat=1711_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Savoy Cabbage/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Savoy Cabbage/vegetablescat=1715_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Scorzonera/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Scorzonera/vegetablescat=1670_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Spinach/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Spinach/vegetablescat=1674_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Tomatoes/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Tomatoes/vegetablescat=1676_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Turnip/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/Turnip/vegetablescat=1712_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/White Cabbage/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/Vegetables/White Cabbage/vegetablescat=1714_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/bioverita/bioverita_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/bioverita/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/green-manures/green-manures_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/green-manures/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/herbs/herbs_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/herbs/herbsp=2_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/herbs/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/medicinal-plants/medicinal-plants_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/medicinal-plants/medicinal-plantsp=2_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/medicinal-plants/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/prospecierara/organized_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/prospecierara/prospecierara_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/prospecierara/prospecierarap=2_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/prospecierara/prospecierarap=3_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/data_sets/cultivation_data/Data 1/prospecierara/prospecierarap=4_scraped_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/machine_learning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/machine_learning/recommendation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/seeds_wild_ai_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seeds_wild_ai_system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/~$eds Recommendation System.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/~$quirementsSpecificationsForAkhlaqAI.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/~$rk Progress Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/~$taSetAttributes.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeds_wild_ai_system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/seeds_wild_ai_system/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeds_wild_ai_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/seeds_wild_ai_system/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/machine_learning/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/machine_learning/model2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/machine_learning/recommendation/knn_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/alerts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/process_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/alerts/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/process_data/clean_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/data_process/clean_data/clean_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/process_data/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/data_process/post_process/recommend_input_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/recommendations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/cultivation_plan/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/recommendations/recommend_content_based.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/recommendations/recommend_content_based.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/alerts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recommendation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/apps/recommendation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/corrected_seed_features.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/corrected_seed_features.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test_model.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test_model.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZdmTH2Nhcvkf1VKxaAppCLeXtr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\DataScience\seeds_wild_ai_system\src\AI\machine_learning" />
+      <recent name="E:\DataScience\seeds_wild_ai_system\src\AI" />
+      <recent name="E:\DataScience\seeds_wild_ai_system\src\AI\apps" />
+      <recent name="E:\DataScience\seeds_wild_ai_system\src\DataProcessing\post_process" />
+      <recent name="E:\DataScience\seeds_wild_ai_system\src\DataProcessing\clean_data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="seeds_wild_ai_system" type="Python.DjangoServer" factoryName="Django server">
+      <module name="seeds_wild_ai_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="595fecaf-d54f-4fe9-948e-820b086117b6" name="Changes" comment="" />
+      <created>1702760344432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702760344432</updated>
+      <workItem from="1702760348357" duration="802000" />
+      <workItem from="1702805571820" duration="7367000" />
+      <workItem from="1702849547778" duration="625000" />
+      <workItem from="1702899267346" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
